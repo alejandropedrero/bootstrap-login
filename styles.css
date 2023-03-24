@@ -14,6 +14,10 @@ body {
   min-height: 100vh;
 }
 
+header {
+  font-size: 1.5rem;
+}
+
 .row {
   width: 900px;
   height: 550px;
@@ -23,7 +27,7 @@ body {
 }
 
 .side-image {
-  background-image: url("img/login-cover.png");
+  background-image: url("img/another-background-image.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -112,7 +116,7 @@ i {
 
 .input-field .input:focus,
 .input-field .input:valid {
-  border-bottom: 1px solid #743ae1;
+  border-bottom: 1px solid #79c7c7;
 }
 
 .submit {
