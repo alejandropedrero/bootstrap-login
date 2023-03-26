@@ -16,11 +16,12 @@ body {
 
 h1 {
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.underline {
+/* .underline {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #a9dbdb 50%);
-}
+} */
 
 .row {
   width: 900px;
