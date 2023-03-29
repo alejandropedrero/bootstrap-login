@@ -39,9 +39,8 @@ command to run if program contains helper info
 
 Los dos que quedamos
 
-ex. Dominique Pizzie  
-[@albegosu](https://github.com/albegosu)
-[@alejandropedrero](https://github.com/alejandropedrero)
+Alberto González [@albegosu](https://github.com/albegosu)
+Alejandro Pedrero [@alejandropedrero](https://github.com/alejandropedrero)
 
 ## Version History
 
