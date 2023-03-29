@@ -39,16 +39,17 @@ command to run if program contains helper info
 
 Los dos que quedamos
 
-Alberto González [@albegosu](https://github.com/albegosu)  
-Alejandro Pedrero [@alejandropedrero](https://github.com/alejandropedrero)
+- Alberto González [@albegosu](https://github.com/albegosu)
+- Alejandro Pedrero [@alejandropedrero](https://github.com/alejandropedrero)
 
-## Version History
+## Historial
 
-- 0.2
+- Parcial 1
   - Various bug fixes and optimizations
   - See [commit change]() or See [release history]()
-- 0.1
-  - Initial Release
+- Parcial 2
+  - Bootstrap en toda la página
+  - JavaScript
 
 ## License
 
