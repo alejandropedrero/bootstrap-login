@@ -39,7 +39,7 @@ command to run if program contains helper info
 
 Los dos que quedamos
 
-Alberto González [@albegosu](https://github.com/albegosu)
+Alberto González [@albegosu](https://github.com/albegosu)  
 Alejandro Pedrero [@alejandropedrero](https://github.com/alejandropedrero)
 
 ## Version History
