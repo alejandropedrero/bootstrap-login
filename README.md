@@ -37,10 +37,11 @@ command to run if program contains helper info
 
 ## Autores
 
-Contributors names and contact info
+Los dos que quedamos
 
 ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+[@albegosu](https://github.com/albegosu)
+[@alejandropedrero](https://github.com/alejandropedrero)
 
 ## Version History
 
