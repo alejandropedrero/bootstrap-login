@@ -16,7 +16,7 @@ Continuamos con el desarrollo de la red social añadiendo los ejercicios increme
 
 > Algunos ejemplos
 
-Función con `callback` para eliminar una supuesta cuenta
+Función con `callback` para eliminar una supuesta cuenta:
 
 ```
 function deleteAccount(callback) {
@@ -35,7 +35,7 @@ function deleteAccount(callback) {
 
 > Algunos ejemplos
 
-Manipulación del contenido de `userNameError` si el usuario introduce un nombre de usuario de menos de 4 caracteres
+Manipulación del contenido de `userNameError` si el usuario introduce un nombre de usuario de menos de 4 caracteres:
 
 ```
 function isUserNameValid() {
