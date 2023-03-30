@@ -1,30 +1,47 @@
-# Project Title
+# Entrega Parcial II 
 
-Simple overview of use/purpose.
+Continuamos con el desarrollo de la red social añadiendo los ejercicios incrementales hechos hasta la fecha de entrega.
 
-## Description
+## Requerimientos técnicos
 
-An in-depth paragraph about your project and overview of use.
+### Funciones JavaScript
 
-## Getting Started
+> Algunos ejemplos
 
-### Dependencies
-
-- Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-- ex. Windows 10
-
-### Installing
-
-- How/where to download your program
-- Any modifications needed to be made to files/folders
-
-### Executing program
-
-- How to run the program
-- Step-by-step bullets
+Función con `callback` para eliminar una supuesta cuenta
 
 ```
-code blocks for commands
+function deleteAccount(callback) {
+  users.shift();
+  // Después se redirige a la página principal
+  callback();
+}
+```
+
+### API
+
+- ?
+- ?
+
+### DOM
+
+> Algunos ejemplos
+
+Manipulación del contenido de `userNameError` si el usuario introduce un nombre de usuario de menos de 4 caracteres
+
+```
+function isUserNameValid() {
+  userNameError.textContent = "";
+  let isValid = true;
+
+  if (inputUserName.value.length < 4) {
+    userNameError.textContent =
+      "Tu nombre de usuario debe tener al menos 4 caracteres.";
+    isValid = false;
+  }
+
+  return isValid;
+}
 ```
 
 ## Help
@@ -32,7 +49,18 @@ code blocks for commands
 Any advise for common problems or issues.
 
 ```
-command to run if program contains helper info
+function isUserNameValid() {
+  userNameError.textContent = "";
+  let isValid = true;
+
+  if (inputUserName.value.length < 4) {
+    userNameError.textContent =
+      "Tu nombre de usuario debe tener al menos 4 caracteres.";
+    isValid = false;
+  }
+
+  return isValid;
+}
 ```
 
 ## Autores
