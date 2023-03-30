@@ -1,6 +1,6 @@
 # Rentrega Parcial I 
 
-- [![Bootstrap][Bootstrap.com]][Bootstrap-url]  
+[![Bootstrap][Bootstrap.com]][Bootstrap-url]  
   
  Modificamos todo el proyecto para que sea reponsivo ayudándonos del sistema responsivo de `Bootstrap`.
 
@@ -9,6 +9,8 @@
 Continuamos con el desarrollo de la red social añadiendo los ejercicios incrementales hechos hasta la fecha de entrega.
 
 ## Requerimientos técnicos
+
+![JavaScript]
 
 ### Funciones JavaScript
 
@@ -73,3 +75,4 @@ Alejandro Pedrero - [@alejandropedrero](https://github.com/alejandropedrero)
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[JavaScript]: https://badges.aleen42.com/src/javascript.svg
