@@ -2,7 +2,7 @@
 
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]  
   
- Modificamos todo el proyecto para que sea reponsivo ayudándonos del sistema responsivo de `Bootstrap`.
+ Modificamos todo el proyecto para que sea reponsivo ayudándonos del sistema de `Bootstrap`.
 
 # Entrega Parcial II 
 
