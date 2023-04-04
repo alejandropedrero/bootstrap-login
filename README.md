@@ -1,66 +1,81 @@
-# Project Title
+# Entrega Parcial I
 
-Simple overview of use/purpose.
+[![Bootstrap][bootstrap.com]][bootstrap-url]
 
-## Description
+Modificamos todo el proyecto para que sea reponsivo ayudándonos del sistema de `Bootstrap`.
 
-Una red social para programadores.
+An in-depth paragraph about your project and overview of use.
 
-## Getting Started
+Continuamos con el desarrollo de la red social añadiendo los ejercicios incrementales hechos hasta la fecha de entrega.
 
-### Dependencies
+## Requerimientos técnicos
 
-- Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-- ex. Windows 10
+![JavaScritp badge](https://badges.aleen42.com/src/javascript.svg)
 
-### Installing
+### Funciones JavaScript
 
-- How/where to download your program
-- Any modifications needed to be made to files/folders
+> Algunos ejemplos
 
-### Executing program
-
-- How to run the program
-- Step-by-step bullets
+Función con `callback` para eliminar una supuesta cuenta:
 
 ```
-code blocks for commands
+function deleteAccount(callback) {
+  users.shift();
+  // Después se redirige a la página principal
+  callback();
+}
 ```
 
-## Help
+### APIs
 
-Any advise for common problems or issues.
+- ?
+- ?
+
+### DOM
+
+> Algunos ejemplos
+
+Manipulación del contenido de `userNameError` si el usuario introduce un nombre de usuario de menos de 4 caracteres:
 
 ```
-command to run if program contains helper info
+function isUserNameValid() {
+  userNameError.textContent = "";
+  let isValid = true;
+
+  if (inputUserName.value.length < 4) {
+    userNameError.textContent =
+      "Tu nombre de usuario debe tener al menos 4 caracteres.";
+    isValid = false;
+  }
+
+  return isValid;
+}
 ```
 
-## Autores
+## ?
 
-Los dos que quedamos:
+Los dos que quedamos
 
-- [@albegosu](https://github.com/albegosu)
-- [@alejandropedrero](https://github.com/alejandropedrero)
+- Alberto González [@albegosu](https://github.com/albegosu)
+- Alejandro Pedrero [@alejandropedrero](https://github.com/alejandropedrero)
 
 ## Historial
 
 - Parcial 1
-  - Various bug fixes and optimizations
-  - See [commit change]() or See [release history]()
+  - HTML
+  - CSS
+  - Bootstrap
 - Parcial 2
-  - Bootstrap en toda la página
   - JavaScript
+  - DOM
+  - APIs
 
-## License
+## Autores
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+Alberto González - [@albegosu](https://github.com/albegosu)  
+Alejandro Pedrero - [@alejandropedrero](https://github.com/alejandropedrero)
 
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-
-- [awesome-readme](https://github.com/matiassingers/awesome-readme)
-- [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-- [dbader](https://github.com/dbader/readme-template)
-- [zenorocha](https://gist.github.com/zenorocha/4526327)
-- [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com
+[javascript]: https://badges.aleen42.com/src/javascript.svg
+[javascript-url]: https://developer.mozilla.org/es/docs/Web/JavaScript
