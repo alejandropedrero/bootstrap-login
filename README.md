@@ -4,7 +4,7 @@ Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Una red social para programadores.
 
 ## Getting Started
 
@@ -37,10 +37,10 @@ command to run if program contains helper info
 
 ## Autores
 
-Los dos que quedamos
+Los dos que quedamos:
 
-- Alberto González [@albegosu](https://github.com/albegosu)
-- Alejandro Pedrero [@alejandropedrero](https://github.com/alejandropedrero)
+- [@albegosu](https://github.com/albegosu)
+- [@alejandropedrero](https://github.com/alejandropedrero)
 
 ## Historial
 
